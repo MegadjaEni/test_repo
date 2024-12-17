@@ -197,22 +197,22 @@ class Rules:
 
     @staticmethod
     def player_win(chips: Tokens):
-        print('A játékos nyert')
+        print('A játékos nyert!')
         chips.win_bet()
 
     @staticmethod
     def dealer_loose(chips: Tokens):
-        print('A osztó elúszott')
+        print('A osztó elúszott!')
         chips.loose_bet()
 
     @staticmethod
     def dealer_win(chips: Tokens):
-        print('A osztó nyert')
+        print('A osztó nyert!')
         chips.win_bet()
 
     @staticmethod
     def equal(chips: Tokens):
-        print('Az állás döntetlen, az osztó nyert')
+        print('Az állás döntetlen, az osztó nyert!')
         chips.loose_bet()
 
 
