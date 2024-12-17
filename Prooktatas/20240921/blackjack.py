@@ -219,7 +219,7 @@ class Rules:
 token = Tokens()
 
 while True:
-    print('Üdvözlön a BlackJack játékban! A cél elérni a 21-et\n'
+    print('Üdvözlöm kedves játékos a BlackJack játékban! A cél elérni a 21-et\n'
           'Az osztó addig húz, amíg el nem érni a 17-et\n'
           'Az Ász a szabályok szerint 11-et vagy 1-et ér')
     deck = Deck()
